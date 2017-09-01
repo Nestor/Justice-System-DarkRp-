@@ -1,4 +1,4 @@
---hook.Add("PostGamemodeLoaded", "JSRunMainScript", function() -- This is here because the includes don't run without it.
+hook.Add("PostGamemodeLoaded", "JSRunMainScript", function() -- This is here because the includes don't run without it.
 
 AddCSLuaFile("config/config.lua")
 include("config/config.lua")
@@ -1736,7 +1736,7 @@ hook.Add("onDarkRPWeaponDropped", "JSPreventWeaponDupe", function(ply, entwep, s
     end
 end)
 
---end) -- End of the Post Gamemode Hook
+end) -- End of the Post Gamemode Hook
 
 
 /*
