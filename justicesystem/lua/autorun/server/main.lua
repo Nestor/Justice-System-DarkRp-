@@ -790,6 +790,12 @@ PolSys = {}
 
         local cop = net.ReadEntity()
         local numcheck = net.ReadInt(32)
+
+        if not(PolSys.isJob(ply, "JSDenyMsgCL")) then return end
+        if not(PolSys.isPlyNear(ply, cop, "JSDenyMsgCL")) then return end
+        if not(PolSys.isRestrained(ply, cop, "JSDenyMsgCL")) then return end
+        if PolSys.isEscorted(ply, cop, "JSDenyMsgCL") then return end -- beingEscorted returns true if being escorted
+
         ply:SetNWBool("JSTicketPay", false)
 
         if numcheck == 1 then
