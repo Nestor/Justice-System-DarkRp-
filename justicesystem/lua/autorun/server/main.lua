@@ -524,11 +524,13 @@ PolSys = {}
 
         -- Deny messege
         local function jdenymsg()
-            net.Start("JSEscortPlyCL")
-                net.WriteBool(true)
-                net.WriteInt(105,32)
-            net.Send(ply)
-            return false
+            if IsValid(ply) then
+                net.Start("JSEscortPlyCL")
+                    net.WriteBool(true)
+                    net.WriteInt(105,32)
+                net.Send(ply)
+                return false
+             end
         end
 
         -- Check if the ent(perp) is colliding with anything (above his disgusting feet)
