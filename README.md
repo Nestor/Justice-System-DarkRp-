@@ -1,5 +1,4 @@
 # Justice-System-DarkRp-
-A shit system for a gamemode for a shit game
 Bascially, an Arma 3 Altis Life remake for Gmod
 
 Justice System:
