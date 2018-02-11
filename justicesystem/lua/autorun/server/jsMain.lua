@@ -1,7 +1,7 @@
 hook.Add("PostGamemodeLoaded", "JSRunMainScript", function() -- This is here because the includes don't run without it.
 
-AddCSLuaFile("config/config.lua")
-include("config/config.lua")
+AddCSLuaFile("config/jsConfig.lua")
+include("config/jsConfig.lua")
 AddCSLuaFile("lua/autorun/client/cl_jsMain.lua")
 
 -- This creates the function table
