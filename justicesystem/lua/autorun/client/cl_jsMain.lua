@@ -1,5 +1,5 @@
 timer.Simple(1, function() -- Need this here otherwise it doesn't inlcude.
-	include("config/config.lua")
+	include("config/jsConfig.lua")
 end)
 
 surface.CreateFont( "PoliceFont", {
