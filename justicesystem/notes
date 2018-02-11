@@ -1,3 +1,5 @@
+Note; *Thanks to Lapin for pointing out the the file names needed to be changed so that they don't collide with other addons (though I don't think they would have anyways but I haven't used Lua in a while so -\シ/-
+
 Known Bugs:
 
 	1. Sometimes the team will not change (when a hobo to a citizen). Not sure why. (If you have canDemote = to false on some jobs, it means they cannot be demoted. This can cause the bug.) (This bug sometimes happens when the perp is restrained)
