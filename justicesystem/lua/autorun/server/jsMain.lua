@@ -2,7 +2,7 @@ hook.Add("PostGamemodeLoaded", "JSRunMainScript", function() -- This is here bec
 
 AddCSLuaFile("config/config.lua")
 include("config/config.lua")
-AddCSLuaFile("lua/autorun/client/cl_main.lua")
+AddCSLuaFile("lua/autorun/client/cl_jsMain.lua")
 
 -- This creates the function table
 PolSys = {}
