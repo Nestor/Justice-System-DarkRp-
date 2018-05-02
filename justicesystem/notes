@@ -3,17 +3,17 @@ Known Bugs:
 	1. Sometimes the team will not change (when a hobo to a citizen). Not sure why. (If you have canDemote = to false on some jobs, it means they cannot be demoted. This can cause the bug.) (This bug sometimes happens when the perp is restrained)
 	
 	2. The weapons a person has in their hands, will be auto picked up when they are "seized" (if the drop seize option is enabled).
-	- I wanted to make an entity box for it, where all the weapons just go in the box and can be picked up by the perp afterwards (if it isn't destroyed), this includes shit in the pocket too. I might do this in the future. I was just feeling lazy atm.
+	- I wanted to make an entity box for it, where all the weapons just go in the box and can be picked up by the perp afterwards (if it isn't destroyed), this includes stuff in the pocket too. I might do this in the future. I was just feeling lazy atm.
 
 	3. Without the "PostGamemodeLoaded" in the server files and the timer.Simple in the client files, the includes won't actually load and run. It's annoying. I know.
 
-	4. The arms sometimes fuck up when being restrained and become funky, along with becomining unrestrained
+	4. The arms sometimes mess up when being restrained and become funky, along with becomining unrestrained
 
 	5. Some custom models will have their bones set differently. The cuffs won't show up on their bones.
 
 Other Notes:
 
-	1. I know I have a shit ton of the same hooks doing different shit. I have it like that to be organized. I don't feel like tossing all the shit into one hook and then going back and forth editing/scripting. This way, I have everything I need in one spot.
+	1. I know I have a stuff ton of the same hooks doing different stuff. I have it like that to be organized. I don't feel like tossing all the stuff into one hook and then going back and forth editing/scripting. This way, I have everything I need in one spot.
 
 	2. You can lockpick people out of cuffs. Any weapon that can lockpick will be able to lockpick this.
 
@@ -27,11 +27,11 @@ Other Notes:
 
 	7. If a person escapes prison, have the cop restrain them and escort them back, or kill them. (There is no escaping jail function, though I may make that in the future.)
 
-	8. Cops can't fuck with other cops with this system (people in the same cop table won't be able to use it on each other)
+	8. Cops can't mess with other cops with this system (people in the same cop table won't be able to use it on each other)
 
 	9. If a cop gets demoted while escorting, the person will be unrestrained as well as being unescorted. If the perp is just restrained, he/she will stay restrained.
 
-	10. The script won't autorefresh because it runs in a hook. If you manage to fix the includes, then you won't need the hook which in turn means you won't need the hook that fucks up the auto refresh
+	10. The script won't autorefresh because it runs in a hook. If you manage to fix the includes, then you won't need the hook which in turn means you won't need the hook that messes up the auto refresh
 
 	11. Cops can open the menu and interact with perps which other cops are already interacting with/have an open menu (as long as they're not escorting). You don't want to have some dumb cop just afk with his menu open and prevent other cops from being able to do crap.
 
